@@ -47,6 +47,10 @@ p {
 	transition: background-color .25s, color .25s;
 }
 
+.btn:focus {
+	color: #fff;
+}
+
 .btn:hover {
 	background-color: transparent;
 	color: #003087;
@@ -159,6 +163,10 @@ p {
 	color: #003798;
 	border-color: #fff;
 	transition: background-color .25s, border-color .25s, color .25s;
+}
+
+.paint-card .btn:focus {
+	color: #003798;
 }
 
 .paint-card .btn:hover {
