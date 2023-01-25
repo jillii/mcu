@@ -111,6 +111,7 @@ p {
 
 .card img {
 	margin-left: auto;
+	object-fit: contain;
 }
 
 /* CTA Section  */
